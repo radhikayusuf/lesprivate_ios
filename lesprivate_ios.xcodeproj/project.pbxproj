@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		4E3040DD2463FA2C009EDD4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3040DC2463FA2C009EDD4C /* AppDelegate.swift */; };
 		4E3040DF2463FA2C009EDD4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3040DE2463FA2C009EDD4C /* SceneDelegate.swift */; };
-		4E3040E12463FA2C009EDD4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3040E02463FA2C009EDD4C /* ViewController.swift */; };
-		4E3040E42463FA2C009EDD4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3040E22463FA2C009EDD4C /* Main.storyboard */; };
+		4E3040E12463FA2C009EDD4C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3040E02463FA2C009EDD4C /* SplashViewController.swift */; };
+		4E3040E42463FA2C009EDD4C /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3040E22463FA2C009EDD4C /* Splash.storyboard */; };
 		4E3040E62463FA2F009EDD4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3040E52463FA2F009EDD4C /* Assets.xcassets */; };
 		4E3040E92463FA2F009EDD4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3040E72463FA2F009EDD4C /* LaunchScreen.storyboard */; };
 		4E3040F42463FA30009EDD4C /* lesprivate_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3040F32463FA30009EDD4C /* lesprivate_iosTests.swift */; };
 		4E3040FF2463FA30009EDD4C /* lesprivate_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3040FE2463FA30009EDD4C /* lesprivate_iosUITests.swift */; };
+		4E7F24FE24641BCD0053E049 /* SplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F24FD24641BCD0053E049 /* SplashModel.swift */; };
+		4E7F2501246424160053E049 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F2500246424160053E049 /* MainViewController.swift */; };
+		4E7F2503246424320053E049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7F2502246424320053E049 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +41,8 @@
 		4E3040D92463FA2C009EDD4C /* lesprivate_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lesprivate_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3040DC2463FA2C009EDD4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E3040DE2463FA2C009EDD4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E3040E02463FA2C009EDD4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4E3040E32463FA2C009EDD4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E3040E02463FA2C009EDD4C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		4E3040E32463FA2C009EDD4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Splash.storyboard; sourceTree = "<group>"; };
 		4E3040E52463FA2F009EDD4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E3040E82463FA2F009EDD4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E3040EA2463FA2F009EDD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		4E3040FA2463FA30009EDD4C /* lesprivate_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lesprivate_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3040FE2463FA30009EDD4C /* lesprivate_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesprivate_iosUITests.swift; sourceTree = "<group>"; };
 		4E3041002463FA30009EDD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E7F24FD24641BCD0053E049 /* SplashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashModel.swift; sourceTree = "<group>"; };
+		4E7F2500246424160053E049 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4E7F2502246424320053E049 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,10 @@
 		4E3040DB2463FA2C009EDD4C /* lesprivate_ios */ = {
 			isa = PBXGroup;
 			children = (
+				4E7F24FF246423E70053E049 /* main */,
+				4E7F24FC24641BA10053E049 /* splash */,
 				4E3040DC2463FA2C009EDD4C /* AppDelegate.swift */,
 				4E3040DE2463FA2C009EDD4C /* SceneDelegate.swift */,
-				4E3040E02463FA2C009EDD4C /* ViewController.swift */,
-				4E3040E22463FA2C009EDD4C /* Main.storyboard */,
 				4E3040E52463FA2F009EDD4C /* Assets.xcassets */,
 				4E3040E72463FA2F009EDD4C /* LaunchScreen.storyboard */,
 				4E3040EA2463FA2F009EDD4C /* Info.plist */,
@@ -126,6 +132,25 @@
 				4E3041002463FA30009EDD4C /* Info.plist */,
 			);
 			path = lesprivate_iosUITests;
+			sourceTree = "<group>";
+		};
+		4E7F24FC24641BA10053E049 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				4E3040E02463FA2C009EDD4C /* SplashViewController.swift */,
+				4E3040E22463FA2C009EDD4C /* Splash.storyboard */,
+				4E7F24FD24641BCD0053E049 /* SplashModel.swift */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		4E7F24FF246423E70053E049 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				4E7F2500246424160053E049 /* MainViewController.swift */,
+				4E7F2502246424320053E049 /* Main.storyboard */,
+			);
+			path = main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +259,8 @@
 			files = (
 				4E3040E92463FA2F009EDD4C /* LaunchScreen.storyboard in Resources */,
 				4E3040E62463FA2F009EDD4C /* Assets.xcassets in Resources */,
-				4E3040E42463FA2C009EDD4C /* Main.storyboard in Resources */,
+				4E3040E42463FA2C009EDD4C /* Splash.storyboard in Resources */,
+				4E7F2503246424320053E049 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E3040E12463FA2C009EDD4C /* ViewController.swift in Sources */,
+				4E7F24FE24641BCD0053E049 /* SplashModel.swift in Sources */,
+				4E3040E12463FA2C009EDD4C /* SplashViewController.swift in Sources */,
 				4E3040DD2463FA2C009EDD4C /* AppDelegate.swift in Sources */,
 				4E3040DF2463FA2C009EDD4C /* SceneDelegate.swift in Sources */,
+				4E7F2501246424160053E049 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +325,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4E3040E22463FA2C009EDD4C /* Main.storyboard */ = {
+		4E3040E22463FA2C009EDD4C /* Splash.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4E3040E32463FA2C009EDD4C /* Base */,
 			);
-			name = Main.storyboard;
+			name = Splash.storyboard;
 			sourceTree = "<group>";
 		};
 		4E3040E72463FA2F009EDD4C /* LaunchScreen.storyboard */ = {
@@ -435,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KQWSFV58P;
 				INFOPLIST_FILE = lesprivate_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KQWSFV58P;
 				INFOPLIST_FILE = lesprivate_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

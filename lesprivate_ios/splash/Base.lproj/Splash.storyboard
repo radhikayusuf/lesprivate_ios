@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SplashViewController" customModule="lesprivate_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nature" translatesAutoresizingMaskIntoConstraints="NO" id="LRn-5a-K3W">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uem-Kc-4hY">
+                                <rect key="frame" x="0.0" y="627.33333333333337" width="414" height="268.66666666666663"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Bali" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADZ-uH-KGq">
+                                        <rect key="frame" x="32" y="32" width="350" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVk-Q3-za0">
+                                        <rect key="frame" x="32" y="79" width="350" height="95.666666666666686"/>
+                                        <string key="text">is a province of Indonesia and the westernmost of the Lesser Sunda Islands. Located east of Java and west of Lombok, the province includes the island of Bali and a few smaller neighbouring islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.79816791373239437" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ADZ-uH-KGq" secondAttribute="trailing" constant="32" id="13y-IZ-zZd"/>
+                                    <constraint firstItem="QVk-Q3-za0" firstAttribute="top" secondItem="ADZ-uH-KGq" secondAttribute="bottom" constant="8" id="ADw-2p-r61"/>
+                                    <constraint firstItem="QVk-Q3-za0" firstAttribute="leading" secondItem="Uem-Kc-4hY" secondAttribute="leading" constant="32" id="BkO-Ln-cw5"/>
+                                    <constraint firstItem="ADZ-uH-KGq" firstAttribute="top" secondItem="Uem-Kc-4hY" secondAttribute="top" constant="32" id="VD7-D8-Tnf"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="QVk-Q3-za0" secondAttribute="bottom" constant="32" id="dNH-hn-UlB"/>
+                                    <constraint firstItem="ADZ-uH-KGq" firstAttribute="leading" secondItem="Uem-Kc-4hY" secondAttribute="leading" constant="32" id="gv0-kh-d44"/>
+                                    <constraint firstAttribute="trailing" secondItem="QVk-Q3-za0" secondAttribute="trailing" constant="32" id="rph-1t-Gsi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Uem-Kc-4hY" secondAttribute="bottom" id="3Zv-Ri-yCt"/>
+                            <constraint firstAttribute="bottom" secondItem="LRn-5a-K3W" secondAttribute="bottom" id="Ei9-qP-Omo"/>
+                            <constraint firstItem="Uem-Kc-4hY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Gjz-CK-q0Z"/>
+                            <constraint firstItem="LRn-5a-K3W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" symbolic="YES" id="Gnk-95-cJ4"/>
+                            <constraint firstItem="LRn-5a-K3W" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LcT-3Y-iON"/>
+                            <constraint firstItem="Uem-Kc-4hY" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="NJQ-Bq-YjD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Uem-Kc-4hY" secondAttribute="trailing" id="ShQ-LA-sBZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LRn-5a-K3W" secondAttribute="trailing" constant="20" symbolic="YES" id="qLf-G8-OcH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="descContent" destination="QVk-Q3-za0" id="xi7-3J-4br"/>
+                        <outlet property="imageContent" destination="LRn-5a-K3W" id="xVx-kX-8Eq"/>
+                        <outlet property="titleContent" destination="ADZ-uH-KGq" id="EiQ-QC-Lf1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="130"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nature" width="3000" height="4000"/>
+    </resources>
+</document>
